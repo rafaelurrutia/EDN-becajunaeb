@@ -1,0 +1,693 @@
+.contraste a,
+.contraste input.btn-arrow-yellow, 
+.contraste .quest2-txt,
+.contraste .bg-mapa,
+.contraste .header-quienes-pueden,
+.contraste .listLogoContainer,
+.contraste .listado-quienes li,
+.contraste .header-noticias-eventos-interna,
+.contraste h3 span, 
+.altocontraste :after,
+.altocontraste :before, 
+.altocontraste input.btn-arrow-yellow, 
+.altocontraste .header-vida-saludable,
+.altocontraste .header-vida-saludable-interna,
+.altocontraste .header-noticias-eventos,
+.altocontraste .header-noticias-eventos-interna,
+.altocontraste .header-articulos-interes,
+.altocontraste .identificar-proveedor,
+.altocontraste .header-buscador-comercio,
+.altocontraste .back-que-comprar,
+.altocontraste .header-faq, 
+.altocontraste .head-como, .altocontraste .quest2-txt,
+.altocontraste .bg-mapa,
+.altocontraste .header-quienes-pueden,
+.altocontraste .listLogoContainer,
+.altocontraste .listado-quienes li,
+.altocontraste h3 span {
+  filter: url("data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg'&gt;&lt;filter id='grayscale'&gt;&lt;feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+  /* Firefox 10+, Firefox on Android */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: gray !important;
+  /* IE6-9 */
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+
+.contraste {
+  /* Home */
+  /* Internas */
+}
+.contraste input {
+  border: 1px solid black !important;
+}
+.contraste .logo-edenred-blanco{
+	display: none;
+}
+.contraste .logo-edenred-negro{
+	display: inline-block;
+}
+.contraste a, .contraste p, .contraste span, .contraste div {
+  color: black !important;
+}
+.contraste h1, .contraste h2, .contraste h3, .contraste h4, .contraste h5 {
+  color: black !important;
+}
+.contraste h2:after, .contraste h2:before {
+  background-color: gray !important;
+}
+.contraste h3:before {
+  border-color: gray !important;
+}
+.contraste ::-webkit-input-placeholder {
+  color: gray !important;
+}
+.contraste ::-moz-placeholder {
+  color: gray !important;
+}
+.contraste :-ms-input-placeholder {
+  color: gray !important;
+}
+.contraste input:-moz-placeholder {
+  color: gray !important;
+}
+.contraste :after,
+.contraste :before {
+  background-image: none !important;
+}
+.contraste .btn {
+  background: black !important;
+  color: white !important;
+}
+.contraste .btn:before {
+  background-color: #666666 !important;
+}
+.contraste input.btn-arrow-yellow {
+  background: black;
+}
+.contraste .ver-mas-icon {
+  display: none !important;
+}
+.contraste .fecha,
+.contraste .fecha-evento {
+  background: white !important;
+  border: 1px solid black;
+}
+.contraste .msg-login-error {
+  background-color: white;
+  border: 1px solid black;
+}
+.contraste .volver-arriba {
+  background-color: #cccccc;
+}
+.contraste .about-tarjeta img,
+
+.contraste .box-faq img,
+.contraste .bajada-buscador-faq img,
+.contraste .buscador-faq input.sfsearchSubmit {
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -ms-filter: invert(100%);
+  -o-filter: invert(100%);
+  -webkit-filter: invert(1) !important;
+  filter: invert(1) !important;
+}
+.contraste .header {
+  border-bottom: 1px solid black;
+}
+.contraste #barra-accesibilidad {
+  background: white;
+  border-bottom: 1px solid black;
+  color: black !important;
+}
+.contraste .navbar a {
+  color: black !important;
+  background-image: none !important;
+}
+.contraste .foot1 {
+  border-top: 1px solid black;
+  background-color: white;
+}
+.contraste .foot2 {
+  background-color: #ddd;
+  border-top: 1px solid black;
+}
+.contraste .overflow h2 {
+  color: white !important;
+  border-left: 20px solid gray;
+}
+.contraste .overflow p {
+  color: white !important;
+}
+.contraste .header-noticias-eventos-interna .contenedor{
+	background-color: #eee !important;
+}
+.contraste .encuesta-home,
+.contraste .area-buscar-lugar {
+  background: #eee;
+}
+.contraste .encuesta-home input[type=radio]:checked + label,
+.contraste .area-buscar-lugar input[type=radio]:checked + label {
+  color: white;
+}
+.contraste .area-widget,
+.contraste #first-section,
+.contraste #third-section {
+  background-color: #eee !important;
+}
+.contraste .area-widget .about-tarjeta img,
+.contraste #first-section .about-tarjeta img,
+.contraste #third-section .about-tarjeta img {
+  -webkit-filter: invert(1);
+  -moz-filter: invert(1);
+  -o-filter: invert(1);
+  -ms-filter: invert(1);
+  filter: invert(1);
+}
+.contraste #second-section .sfError {
+  background-color: white;
+}
+.contraste #second-section .encuesta-home label{
+  color: black;
+}
+.contraste .listado-faq p,
+.contraste .faqnav p {
+  color: black !important;
+}
+.contraste .listado-faq li:nth-child(odd) .box-faq,
+.contraste .listado-faq .box-faq:nth-child(odd),
+.contraste .faqnav li:nth-child(odd) .box-faq,
+.contraste .faqnav .box-faq:nth-child(odd) {
+  background-color: #eee !important;
+}
+.contraste .listado-faq li:nth-child(odd) .box-faq,
+.contraste .listado-faq .box-faq:nth-child(even),
+.contraste .faqnav li:nth-child(odd) .box-faq,
+.contraste .faqnav .box-faq:nth-child(even) {
+  background-color: #ddd !important;
+}
+.contraste .banner-ciclovias {
+  background: white !important;
+  border: 1px solid black;
+}
+.contraste .banner-ciclovias div, .contraste .banner-ciclovias a, .contraste .banner-ciclovias span {
+  color: black;
+  background: white !important;
+}
+.contraste .bg-mapa{
+  background: #eee;
+}
+.contraste .bg-mapa .area-buscar-lugar h3, 
+.contraste .bg-mapa .area-buscar-lugar p {
+  color: black !important;
+}
+.contraste .header-vida-saludable,
+.contraste .header-vida-saludable-interna,
+.contraste .header-noticias-eventos,
+.contraste .header-noticias-eventos-interna,
+.contraste .header-articulos-interes,
+.contraste .identificar-proveedor,
+.contraste .header-buscador-comercio,
+.contraste .back-que-comprar,
+.contraste .header-faq {
+  background: #ddd !important;
+  background-image: none !important;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.contraste .header-vida-saludable .header-img,
+.contraste .header-vida-saludable-interna .header-img,
+.contraste .header-noticias-eventos .header-img,
+.contraste .header-articulos-interes .header-img,
+.contraste .identificar-proveedor .header-img,
+.contraste .header-buscador-comercio .header-img,
+.contraste .back-que-comprar .header-img,
+.contraste .header-faq .header-img{
+  display: none;
+}
+.contraste .header-vida-saludable .header-icon,
+.contraste .header-vida-saludable .bajada-titulo,
+.contraste .header-vida-saludable .bajada-buscador,
+.contraste .header-vida-saludable-interna .header-icon,
+.contraste .header-vida-saludable-interna .bajada-titulo,
+.contraste .header-vida-saludable-interna .bajada-buscador,
+.contraste .header-noticias-eventos .header-icon,
+.contraste .header-noticias-eventos .bajada-titulo,
+.contraste .header-noticias-eventos .bajada-buscador,
+.contraste .header-noticias-eventos-interna .header-icon,
+.contraste .header-noticias-eventos-interna .bajada-titulo,
+.contraste .header-noticias-eventos-interna .bajada-buscador,
+.contraste .header-articulos-interes .header-icon,
+.contraste .header-articulos-interes .bajada-titulo,
+.contraste .header-articulos-interes .bajada-buscador,
+.contraste .identificar-proveedor .header-icon,
+.contraste .identificar-proveedor .bajada-titulo,
+.contraste .identificar-proveedor .bajada-buscador,
+.contraste .header-buscador-comercio .header-icon,
+.contraste .header-buscador-comercio .bajada-titulo,
+.contraste .header-buscador-comercio .bajada-buscador,
+.contraste .back-que-comprar .header-icon,
+.contraste .back-que-comprar .bajada-titulo,
+.contraste .back-que-comprar .bajada-buscador,
+.contraste .header-faq .header-icon,
+.contraste .header-faq .bajada-titulo,
+.contraste .header-faq .bajada-buscador {
+  background: none;
+  padding-left: 0;
+}
+.contraste .header-vida-saludable:after,
+.contraste .header-vida-saludable-interna:after,
+.contraste .header-noticias-eventos:after,
+.contraste .header-noticias-eventos-interna:after,
+.contraste .header-articulos-interes:after,
+.contraste .identificar-proveedor:after,
+.contraste .header-buscador-comercio:after,
+.contraste .back-que-comprar:after,
+.contraste .header-faq:after {
+  content: '';
+  display: block;
+  width: 54px;
+  height: 35px;
+  position: absolute;
+  top: -1px;
+  left: 45px;
+  background-image: url(images/clip-down-white.png);
+}
+.contraste .vida-saludable,
+.contraste .vida-saludable-interna,
+.contraste .noticias-eventos,
+.contraste .noticias-eventos-interna,
+.contraste #buscacomercio {
+  border: 1px solid black;
+}
+.contraste .figcaption {
+  z-index: 1;
+}
+.contraste .figcaption a, .contraste .figcaption p {
+  color: white !important;
+}
+.contraste .iframe_mapa,
+.contraste #buscacomercio iframe {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  /* Firefox 10+ */
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -webkit-backface-visibility: hidden;
+}
+.contraste .iframe_mapa .tplCicloViasMaps,
+.contraste #buscacomercio iframe .tplCicloViasMaps {
+  border: 1px solid black;
+}
+.contraste #como-obtengo-beca,
+.contraste #quienes-pueden-obtener,
+.contraste #como-identifico-proveedor,
+.contraste #que-puedo-comprar {
+  border: 1px solid black;
+}
+.contraste .head-como {
+  background: #cccccc !important;
+}
+.contraste #como-obtengo-beca .box1 {
+  background-color: #5d5d5d !important;
+}
+.contraste #como-obtengo-beca .box3 {
+  background: #979797 !important;
+}
+.contraste .buscador-conoce-beca,
+.contraste .buscador-faq {
+  background-color: white;
+  border: 1px solid black;
+}
+.contraste .buscador-conoce-beca input,
+.contraste .buscador-faq input {
+  border: 0px solid !important;
+}
+.contraste .paginador a {
+  background-color: white;
+  border: 1px solid black;
+}
+.contraste .page li a {
+  border-bottom: 0;
+  border: 1px solid black;
+}
+.contraste .page li a:hover {
+  border-bottom: 0;
+  border: 1px solid black;
+}
+.contraste .titulo-faq h3 {
+  border-left: 0;
+}
+.contraste .header-quienes-pueden{
+  padding-left: 0;
+  background-image: none;
+}
+
+.altocontraste {
+  /* Home */
+  /* Internas */
+}
+.altocontraste a {
+  color: black !important;
+}
+.altocontraste h2,
+.altocontraste .paginas h2 {
+  color: #333333;
+}
+.altocontraste h2:after, .altocontraste h2:before,
+.altocontraste .paginas h2:after,
+.altocontraste .paginas h2:before {
+  background-color: gray !important;
+}
+.altocontraste h3:before {
+  border-color: gray !important;
+}
+.altocontraste ::-webkit-input-placeholder {
+  color: gray !important;
+}
+.altocontraste ::-moz-placeholder {
+  color: gray !important;
+}
+.altocontraste :-ms-input-placeholder {
+  color: gray !important;
+}
+.altocontraste input:-moz-placeholder {
+  color: gray !important;
+}
+.altocontraste .btn {
+  background: black !important;
+  color: white !important;
+}
+.altocontraste .btn:before {
+  background-color: #666666 !important;
+}
+.altocontraste input.btn-arrow-yellow {
+  background-color: black;
+}
+.altocontraste .ver-mas-icon {
+  display: none !important;
+}
+.altocontraste .fecha,
+.altocontraste .fecha-evento {
+  background: #333333 !important;
+  display: block;
+}
+.altocontraste .msg-login-error {
+  background-color: #333333;
+}
+.altocontraste .volver-arriba {
+  background-color: #cccccc;
+}
+.altocontraste #barra-accesibilidad {
+  background: #333333;
+}
+.altocontraste #barra-accesibilidad .accesibilidad {
+  color: white !important;
+}
+/*
+.altocontraste .navbar .navbar-brand img {
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+*/
+.altocontraste .navbar a {
+  color: black !important;
+  background-image: none !important;
+}
+.altocontraste .foot1 {
+  background-color: gray;
+}
+.altocontraste .foot1 a {
+  color: white !important;
+}
+.altocontraste .foot2 {
+  background-color: #333333;
+}
+.altocontraste .foot2 a {
+  color: white !important;
+}
+.altocontraste .overflow h2 {
+  color: white !important;
+  border-left: 20px solid gray;
+}
+.altocontraste .overflow p {
+  color: white !important;
+}
+.altocontraste .encuesta-home,
+.altocontraste .area-buscar-lugar {
+  background: #aaa;
+}
+.altocontraste .encuesta-home input[type=radio]:checked + label,
+.altocontraste .area-buscar-lugar input[type=radio]:checked + label {
+  color: white;
+}
+.altocontraste .area-widget,
+.altocontraste #first-section,
+.altocontraste #third-section {
+  background-color: gray;
+}
+.altocontraste .area-widget h3,
+.altocontraste #first-section h3,
+.altocontraste #third-section h3 {
+  color: #333333;
+}
+.altocontraste #second-section .area-buscar-lugar:before {
+  display: none;
+}
+.altocontraste #second-section .sfError {
+  background-color: white;
+}
+.altocontraste #second-section :after,
+.altocontraste #second-section :before {
+  display: none;
+}
+.altocontraste .listado-faq li:nth-child(odd) .box-faq,
+.altocontraste .listado-faq .box-faq:nth-child(odd),
+.altocontraste .faqnav li:nth-child(odd) .box-faq,
+.altocontraste .faqnav .box-faq:nth-child(odd) {
+  background-color: #666 !important;
+}
+.altocontraste .listado-faq li:nth-child(odd) .box-faq,
+.altocontraste .listado-faq .box-faq:nth-child(even),
+.altocontraste .faqnav li:nth-child(odd) .box-faq,
+.altocontraste .faqnav .box-faq:nth-child(even) {
+  background-color: #444 !important;
+}
+.altocontraste .banner-ciclovias {
+  background: white !important;
+  border: 1px solid black;
+}
+.altocontraste .banner-ciclovias div, .altocontraste .banner-ciclovias a, .altocontraste .banner-ciclovias span {
+  color: black;
+  background: white !important;
+}
+.altocontraste .header-vida-saludable,
+.altocontraste .header-vida-saludable-interna,
+.altocontraste .header-noticias-eventos,
+.altocontraste .header-noticias-eventos-interna,
+.altocontraste .header-articulos-interes,
+.altocontraste .identificar-proveedor,
+.altocontraste .header-buscador-comercio,
+.altocontraste .back-que-comprar,
+.altocontraste .header-faq {
+  position: relative;
+}
+.altocontraste .header-vida-saludable h2,
+.altocontraste .header-vida-saludable h3,
+.altocontraste .header-vida-saludable-interna h2,
+.altocontraste .header-vida-saludable-interna h3,
+.altocontraste .header-noticias-eventos h2,
+.altocontraste .header-noticias-eventos h3,
+.altocontraste .header-noticias-eventos-interna h2,
+.altocontraste .header-noticias-eventos-interna h3,
+.altocontraste .header-articulos-interes h2,
+.altocontraste .header-articulos-interes h3,
+.altocontraste .identificar-proveedor h2,
+.altocontraste .identificar-proveedor h3,
+.altocontraste .header-buscador-comercio h2,
+.altocontraste .header-buscador-comercio h3,
+.altocontraste .back-que-comprar h2,
+.altocontraste .back-que-comprar h3,
+.altocontraste .header-faq h2,
+.altocontraste .header-faq h3 {
+  color: white;
+}
+.altocontraste .header-vida-saludable:after,
+.altocontraste .header-vida-saludable-interna:after,
+.altocontraste .header-noticias-eventos:after,
+.altocontraste .header-noticias-eventos-interna:after,
+.altocontraste .header-articulos-interes:after,
+.altocontraste .identificar-proveedor:after,
+.altocontraste .header-buscador-comercio:after,
+.altocontraste .back-que-comprar:after,
+.altocontraste .header-faq:after {
+  content: '';
+  display: block;
+  width: 54px;
+  height: 35px;
+  position: absolute;
+  top: -1px;
+  left: 45px;
+  background-image: url(images/clip-down-white.png);
+}
+.altocontraste .img-full h3, 
+.altocontraste .header-quienes-pueden h3,
+.altocontraste .header-quienes-pueden p,
+.altocontraste .img-full h4,
+.altocontraste .layout-header h3,
+.altocontraste .layout-header h4,
+.altocontraste .art-info h3,
+.altocontraste .art-info h4,
+.altocontraste .grilla-articulos h3,
+.altocontraste .grilla-articulos h4,
+.altocontraste .block-eventos h3,
+.altocontraste .block-eventos h4,
+.altocontraste .caja-pregunta-frecuente h3,
+.altocontraste .caja-pregunta-frecuente h4 {
+  color: #333333;
+}
+.altocontraste .figcaption {
+  z-index: 1;
+}
+.altocontraste .figcaption a, .altocontraste .figcaption p {
+  color: white !important;
+}
+.altocontraste .iframe_mapa,
+.altocontraste #buscacomercio iframe {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  /* Firefox 10+ */
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -webkit-backface-visibility: hidden;
+}
+.altocontraste .iframe_mapa .tplCicloViasMaps,
+.altocontraste #buscacomercio iframe .tplCicloViasMaps {
+  border: 1px solid black;
+}
+.altocontraste #como-obtengo-beca .box1 {
+  background-color: #5d5d5d !important;
+}
+.altocontraste #como-obtengo-beca .box3 {
+  background: #979797 !important;
+}
+.altocontraste #como-identifico-proveedor p, .altocontraste #como-identifico-proveedor p span {
+  color: white;
+}
+.altocontraste .buscador-conoce-beca,
+.altocontraste .buscador-faq {
+  background-color: white;
+  border: 1px solid black;
+}
+.altocontraste .buscador-conoce-beca input,
+.altocontraste .buscador-faq input {
+  border: 0px solid !important;
+}
+.altocontraste .bg-conoce p.quest1-txt {
+  color: #333333;
+}
+.altocontraste input.btn-arrow-yellow {
+  background: black;
+}
+.altocontraste .paginador a {
+  background-color: #cccccc;
+}
+.altocontraste .white-box h4 {
+  color: #333333;
+}
+.altocontraste .bike:before {
+  display: none;
+}
+.altocontraste .page li a {
+  border-color: gray;
+}
+.altocontraste .page li a:hover {
+  border-color: gray;
+}
+.altocontraste .titulo-faq h3 {
+  border-left: 0;
+}
+.altocontraste .header-quienes-pueden{
+  padding-left: 0;
+  background-image: none;
+}
+.altocontraste .caja-pregunta-frecuente h3 span,
+.contraste .caja-pregunta-frecuente h3 span{
+	background: #eee;
+}
+.altocontraste .quest2-txt,
+.contraste .quest2-txt{
+ background-image: url('images/quest2-txt_gris.png') !important;
+}
+.altocontraste .gob-color .blue-gob,
+.contraste .gob-color .blue-gob{
+	background: #555;
+}
+.altocontraste .gob-color .red-gob,
+.contraste .gob-color .red-gob{
+	background: #666;
+}
+.altocontraste .listado-quienes li,
+.contraste .listado-quienes li{	
+	background-image: none;
+}
+.altocontraste input[type='text'],
+.contraste input[type='text']{
+	color: black !important;
+}
+.header-noticias-eventos-interna .box .grayscale{
+	width: 100% !important;
+}
+
+/*
+	IE Gray 
+*/
+
+
+.grayscale {
+  /* Firefox 10-34 */
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='saturate' values='0'/></filter></svg>#grayscale") !important;
+  /*
+    Chrome 19+,
+    Safari 6+,
+    Safari 6+ iOS,
+    Opera 15+
+  */
+  -webkit-filter: grayscale(1) !important;
+  /* Firefox 35+ */
+  filter: grayscale(1) !important;
+  /* IE 6-9 */
+  filter: gray !important; 
+}
+.grayscale.grayscale-fade {
+  transition: filter .5s;
+}
+/* Webkit hack until filter is unprefixed */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .grayscale.grayscale-fade {
+    -webkit-transition: -webkit-filter .5s;
+    transition:         -webkit-filter .5s;
+  }
+}
+.grayscale.grayscale-off,
+.grayscale.grayscale-fade:hover {
+  -webkit-filter: grayscale(0);
+  filter:         grayscale(0);
+}
+/* Background element */
+.grayscale.grayscale-replaced {
+  -webkit-filter: none;
+  filter:         none;
+}
+.grayscale.grayscale-replaced > svg {
+  -webkit-transition: opacity .5s ease;
+  transition:         opacity .5s ease;
+  opacity: 1;
+}
+.grayscale.grayscale-replaced.grayscale-off > svg,
+.grayscale.grayscale-replaced.grayscale-fade:hover > svg {
+  opacity: 0;
+}
+

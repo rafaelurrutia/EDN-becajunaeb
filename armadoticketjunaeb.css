@@ -1,0 +1,72 @@
+/* barra accesibilidad */
+.accesibilidad,
+.accesibilidad:hover,
+.accesibilidad:active,
+.accesibilidad:visited,
+.accesibilidad:focus{
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* secong-section */
+#second-section .encuesta-home,
+#second-section .area-widget,
+#second-section .area-buscar-lugar,
+#second-section .bg-mapa,
+#second-section .img-crop{
+  min-height: 340px;
+}
+#second-section h3{
+  line-height: 1.3 !important;
+  max-width: 80% !important;
+}
+#second-section .btn.btn-arrow,
+#third-section .btn.btn-arrow{
+  margin-top: 20px;
+}
+#second-section .btn.btn-arrow{
+  min-width: 250px;
+}
+#second-section .btn-yellow{
+  transition: .2s;
+}
+#second-section .btn-yellow:hover{
+  color: white;
+}
+.encuesta-home label{
+  padding-left: 10px;
+}
+.img-crop{
+  height: 340px;
+}
+.img-crop img{
+  float: left !important;
+  width: 100%;
+}
+
+
+/* columna */
+.white-box ul.sfCategoriesList li{
+  min-height: initial;
+  color: #9c9e9f;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.white-box h5 a{
+  color: #646567;
+}
+.img-new{
+  height: 100px;
+  overflow: hidden;
+  width: 119px;
+  position: relative;
+}
+.img-new img{
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+.cont-new{
+  padding-left: 130px;
+}

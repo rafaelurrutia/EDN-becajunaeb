@@ -1,0 +1,821 @@
+@media only screen and (max-width: 1200px) {
+  /* Home */
+  .titulo-faq h3 {
+    font-size: 19px;
+  }
+
+  #first-section .pl-50,
+  #second-section .pl-50 {
+    padding-left: 35px;
+  }
+  #first-section .btn.btn-arrow,
+  #second-section .btn.btn-arrow {
+    min-width: 230px;
+  }
+
+  #second-section h3 {
+    max-width: 85%;
+  }
+  #second-section .encuesta-home label {
+    line-height: 1em;
+  }
+
+  .white-box {
+    min-height: 740px;
+  }
+  .white-box h4 {
+    margin-bottom: 0;
+  }
+  .white-box .more {
+    display: block;
+    float: initial;
+    margin-bottom: 15px;
+  }
+
+  /* Footer */
+  .foot2 .logos-footer img {
+    margin-right: 40px;
+  }
+
+  /* Noticias  Interna */
+  .header-noticias-eventos-interna {
+    min-height: initial;
+  }
+  .header-noticias-eventos-interna .header-img {
+    width: initial;
+  }
+
+  /* Preguntas frecuentes */
+  nav.page ul li a {
+    font-size: 12px !important;
+  }
+
+  /* Comoce tu beca */
+  #como-obtengo-beca .head-como .col-md-7 {
+    width: 90%;
+  }
+  #como-obtengo-beca .head-como .box-como-identifico {
+    padding-left: 20px;
+  }
+  #como-obtengo-beca .head-como .tit-especial {
+    max-width: 70%;
+    min-height: 90px;
+  }
+  #como-obtengo-beca .quest1 img {
+    float: right;
+  }
+  #como-obtengo-beca .quest1 .quest1-txt,
+  #como-obtengo-beca .quest2 .quest1-txt {
+    background-size: 250px 75px !important;
+    left: 40px;
+    width: 250px;
+  }
+  #como-obtengo-beca .quest1 .quest2-txt,
+  #como-obtengo-beca .quest2 .quest2-txt {
+    background-size: 180px 75px !important;
+    padding-top: 7px;
+    top: -75px;
+    /*width: 180px;*/
+    width: 190px;
+    background-repeat:no-repeat;
+  }
+  #como-obtengo-beca .quest1 img,
+  #como-obtengo-beca .quest2 img {
+    width: 70%;
+  }
+  #como-obtengo-beca .float-box {
+    font-size: 14px;
+  }
+  #como-obtengo-beca .float2a {
+    margin-left: 17%;
+    margin-top: 20px;
+    width: 420px;
+  }
+  #como-obtengo-beca .float2b {
+    margin-top: 90px;
+  }
+  #como-obtengo-beca .box1 {
+    background-color: #016CB4 !important;
+    min-height: 400px !important;
+  }
+  #como-obtengo-beca .box1 .float1 {
+    margin-left: 5%;
+  }
+  #como-obtengo-beca .box1,
+  #como-obtengo-beca .box3 {
+    position: relative;
+    min-height: 460px;
+    background-color: #00bcec;
+  }
+  #como-obtengo-beca .box1 .full-bg,
+  #como-obtengo-beca .box3 .full-bg {
+    position: absolute;
+    bottom: 0;
+  }
+  #como-obtengo-beca .box1 .float3,
+  #como-obtengo-beca .box3 .float3 {
+    min-width: 100%;
+    width: initial;
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* Home */
+  .white-box {
+    min-height: initial;
+  }
+  .white-box h4 {
+    margin-bottom: 30px;
+  }
+  .white-box .more {
+    display: inline-block;
+    float: right;
+    margin-bottom: 0px;
+  }
+
+  .box-faq img {
+    margin-bottom: 50px !important;
+  }
+
+  .about-tarjeta {
+    padding-right: 50px;
+  }
+  .about-tarjeta .link-mijunaeb {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  /* navbar */
+  .navbar {
+    border-width: 0px;
+  }
+
+  .navbar-collapse {
+    overflow: hidden;
+  }
+  .navbar-collapse ul.menu-principal {
+    margin-right: 8px;
+  }
+  .navbar-collapse .navbar-form {
+    float: left !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about-tarjeta {
+    padding-bottom: 35px;
+  }
+  .about-tarjeta .link-mijunaeb {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .about-tarjeta li {
+    display: block;
+  }
+
+  /* Footer */
+  .foot1 .menu-footer {
+    margin-top: 20px;
+  }
+  .foot1 .menu-footer li {
+    float: none;
+  }
+
+  .foot2 {
+    /* Footer */
+  }
+  .foot2 .col-md-4 {
+    padding-right: 0;
+  }
+  .foot2 .datos-contacto {
+    text-align: center;
+  }
+
+  /* Grilla-articulos */
+  .grilla-articulos {
+    display: inline-block;
+  }
+  .grilla-articulos .col-md-4 {
+    width: 33.3%;
+    float: left;
+  }
+
+  /* Noticias */
+  .info-noticias-eventos .col-md-4 {
+    width: 33.3%;
+    float: left;
+  }
+  .info-noticias-eventos .block-eventos {
+    width: 100%;
+  }
+
+  /* Noticias interior */
+  .noticias-eventos-interna .media,
+  .vida-saludable-interna .media {
+    width: 33%;
+    float: left;
+  }
+  .header-noticias-eventos-interna .header-img{
+  width: initial !important; 
+  }
+
+  /* Preguntas frecuentes */
+  .inline-block {
+    display: inline-block;
+  }
+
+  nav.page ul li {
+    width: 50% !important;
+  }
+  nav.page ul li a {
+    font-size: 14px;
+  }
+
+  /* Conoce tu beca */
+  .titulo-faq {
+    padding-left: 20px;
+  }
+
+  .box3 {
+    min-height: 400px !important;
+  }
+
+  .full-bg {
+    bottom: 0;
+  }
+
+  .float2b {
+    margin-top: 45px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* home */
+  #second-section .pl-50 {
+    padding-left: 20px;
+  }
+
+  /* navbar */
+  .pl-50 {
+    padding-left: initial;
+  }
+
+  .pr-50 {
+    padding-right: initial;
+  }
+
+  .blue-gob {
+    width: 68px;
+  }
+
+  .red-gob {
+    width: 105px;
+  }
+
+  .navbar-endenred {
+    padding: 5px 0px 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .navbar-form .form-group {
+    margin-bottom: 5px !important;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    height: auto;
+    margin: 0 !important;
+    max-height: 360px;
+    padding: 15px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .navbar-collapse ul.menu-principal {
+    width: 100%;
+    margin: 0;
+  }
+  .navbar-collapse ul.menu-principal li {
+    width: 100%;
+  }
+  .navbar-collapse ul.menu-principal li a {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 12px;
+  }
+  .navbar-collapse ul.menu-principal li a span {
+    display: initial;
+  }
+
+  .navbar-brand {
+    padding-left: 25px;
+  }
+
+  #ticketjunaeb {
+    /*margin-left: -35px;
+    margin-top: 3px;*/
+    /*margin-top:-48px;*/
+    width: 257px;
+    padding: 0;
+    padding-left: 34px;
+    float: left;
+    
+    
+    margin-top: 10px;
+  }
+  #ticketjunaeb img {
+    width: 80%;
+  }
+
+  .formulario-login {
+    background-image: none;
+    border-top: 1px dotted #ccc;
+    margin: 15px !important;
+    padding: 20px 10px 0px;
+    width: 100%;
+  }
+  .formulario-login .form-control {
+    width: 100%;
+  }
+
+  .navbar-form {
+    margin: 0 !important;
+  }
+
+  .formulario-login .btn {
+    width: 100%;
+  }
+
+  .formulario-login .form-group {
+    width: 100%;
+    float: left;
+    padding: 0px;
+  }
+
+  .navbar-form .form-control {
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* Home */
+  .about-tarjeta {
+    /*padding: 20px;*/
+  }
+
+  #second-section .area-buscar-lugar:before {
+    display: none;
+  }
+  #second-section .area-buscar-lugar,
+  #second-section .area-widget {
+    padding-left: 20px;
+  }
+
+  .noticia-principal img {
+    width: 100%;
+  }
+
+  .img-crop:before {
+    top: -17px;
+    left: 50%;
+    margin-left: -15px;
+    transform: rotate(90deg);
+  }
+
+  .img-crop img {
+    height: initial;
+  }
+
+  .overflow h2 {
+    margin-top: 50px;
+  }
+
+  /* Grilla-articulos */
+  .grilla-articulos .row {
+    margin: 0;
+  }
+  .grilla-articulos .col-md-4 {
+    width: 100%;
+    float: left;
+  }
+
+  /* Noticias Todos */
+  .todos .col-md-4 {
+    width: 50%;
+  }
+  .todos .no-mobile {
+    display: block;
+  }
+  .todos .only-mobile {
+    display: none !important;
+  }
+
+  /* Preguntas frecuentes */
+  nav.page ul li {
+    width: 100% !important;
+  }
+  nav.page ul li a {
+    border-bottom: 0px;
+    border-left: 10px solid #d4b2d2;
+  }
+  nav.page ul li a:before {
+    display: none;
+  }
+
+  .titulo-faq {
+    width: 100%;
+    padding: 30px 20px;
+    height: initial;
+  }
+  .titulo-faq h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .listado-faq {
+    width: 100%;
+  }
+  .listado-faq .box-faq {
+    width: 50%;
+  }
+
+  /* Como tu beca */
+  #como-obtengo-beca .head-como {
+    min-height: 300px;
+    height: initial;
+  }
+  #como-obtengo-beca .head-como .col-md-7 {
+    width: 96%;
+  }
+  #como-obtengo-beca .head-como .tit-especial {
+    max-width: 90%;
+    min-height: 90px;
+  }
+  #como-obtengo-beca .float-box {
+    top: 9%;
+  }
+  #como-obtengo-beca .quest2 {
+    bottom: 22%;
+		left: 75%;
+  }
+  #como-obtengo-beca .float1 {
+    margin-left: 32% !important;
+  }
+  #como-obtengo-beca .float2a {
+    margin-top: 80%;
+    margin-left: 5%;
+  }
+  #como-obtengo-beca .full-bg {
+    position: relative !important;
+  }
+  #como-obtengo-beca .box3 .float3 {
+    margin-top: 70%;
+  }
+  #como-obtengo-beca .quest1 img,
+  #como-obtengo-beca .quest2 img {
+    width: 100%;
+  }
+  #como-obtengo-beca .quest1 {
+    left: 4% !important;
+    top: 56% !important;
+  }
+  #como-obtengo-beca .layout-quienes-pueden {
+    padding: 20px 10px !important;
+  }
+
+  .box-como-identifico h3.tit-especial {
+    max-width: 100%;
+    font-size: 30px;
+  }
+
+  .box-como-identifico {
+    padding: 10px 10px 50px;
+  }
+
+  .box-como-identifico .btn {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 60px;
+    max-width: 100%;
+  }
+
+  .header-quienes-pueden {
+    padding: 10px !important;
+    background-image: none !important;
+  }
+
+  .float1 {
+    width: 250px;
+    margin-top: 95% !important;
+    margin-left: 31%;
+  }
+
+  .quest1-txt {
+    width: 300px;
+    height: 74px;
+    background-image: url(images/quest1-txt-mobile.png);
+    background-repeat: no-repeat;
+    top: initial;
+    left: -3px;
+    padding: 25px 12px 0px;
+    bottom: -100px;
+  }
+
+  .quest2-txt {
+    right: 45px;
+    top: -58px;
+  }
+
+  .float2b {
+    display: none;
+  }
+
+  .logos-footer span {
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+
+  .logos-footer span img {
+    margin-right: 0px;
+    max-width: 100%;
+  }
+
+  .logo-edenred {
+    padding-top: 35px;
+  }
+
+  .logos-footer span.logo-w3 {
+    padding: 35px 0px 10px;
+  }
+
+  .datos-contacto {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .menu-footer {
+    margin-top: 10px;
+    padding: 20px;
+  }
+
+  .menu-footer li {
+    float: none;
+  }
+
+  .about-tarjeta ul li {
+    font-size: 16px;
+  }
+
+  .about-tarjeta ul li img {
+    max-width: 90%;
+  }
+
+  #third-section .btn-full.btn-yellow {
+    white-space: normal;
+    padding: 12px 100px 5px 20px;
+  }
+
+  .logo-w3 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .col-md-4 {
+    width: 100% !important;
+  }
+
+  .navbar-collapse {
+    padding: 0 15px !important;
+    min-height: initial !important;
+  }
+
+  /* Grilla */
+  .no-mobile {
+    display: none;
+  }
+
+  .only-mobile {
+    display: block;
+  }
+
+  .grilla-articulos {
+    background-color: #fff;
+    background-image: url(images/bg-section-vs.gif);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: 100px 70px;
+    padding: 0px 20px;
+    float: left;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .grilla-articulos h3 {
+    margin: 25px 0px 50px;
+    font-size: 21px;
+  }
+
+  .vermas-grilla {
+    position: absolute;
+    top: -2px;
+    right: 0px;
+    display: block;
+    color: #f29200;
+    padding-right: 25px;
+    background-image: url(images/link-circle.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+
+  .grilla-articulos .paginador {
+    display: block;
+  }
+
+  .header-articulos-interes {
+    padding: 20px 30px;
+    background-image: url(images/bg-noticias-eventos-mobile.jpg);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .header-articulos-interes h2 {
+    padding-top: 20px !important;
+  }
+
+  .header-articulos-interes:after {
+    display: none;
+  }
+
+  .caja-articulo-todos {
+    border-bottom: 2px dotted #cdd1da;
+    min-height: 150px;
+    padding-bottom: 15px;
+  }
+
+  .caja-articulo-todos a img {
+    float: left;
+  }
+
+  .art-info {
+    padding: 0px 0px 0px 130px;
+    min-height: initial;
+  }
+  .art-info ul {
+    padding: 0;
+  }
+  .art-info h4 a {
+    color: #646567;
+    font-size: 16px;
+    margin-top: 0px;
+  }
+
+  .art-category {
+    padding: 0px 0px 5px;
+    line-height: 1;
+  }
+
+  /* Footer */
+  .foot1 .col-md-8 {
+    width: 100%;
+    padding: 0;
+  }
+  .foot1 .menu-footer {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .foot1 .menu-footer li {
+    background-image: none;
+    float: none;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 5px;
+    text-align: center;
+  }
+  .foot1 .facebookShareContent {
+    text-align: center;
+    margin: -25px;
+    margin-left: 10px;
+  }
+  .foot1 .boton-facebook {
+    padding-right: 100px;
+    margin-bottom: 20px;
+  }
+  .foot1 .boton-facebook .sf_cols.row {
+    right: initial;
+  }
+
+  .foot2 .col-md-4 {
+    padding-right: 20px;
+  }
+  .foot2 .logos-footer span.logo-w3 {
+    display: none;
+  }
+
+  /* Noticias Interna */
+  .header-noticias-eventos-interna {
+    min-height: initial;
+  }
+  .header-noticias-eventos-interna .header-img {
+    width: 100%;
+  }
+
+  /* Noticias Todos */
+  .todos .col-md-4 {
+    width: 50%;
+  }
+  .todos .no-mobile {
+    display: none;
+  }
+  .todos .only-mobile {
+    display: block !important;
+  }
+  .todos .caja-articulo-todos {
+    min-height: initial;
+  }
+  .todos .art-info {
+    padding: 0px 0px 0px 130px;
+  }
+  .todos .art-info h4 a {
+    color: #646567;
+    font-size: 16px;
+    margin-top: 0px;
+  }
+
+  /* Como tu beca */
+  #como-obtengo-beca .quest2 {
+    bottom: 5% !important;
+  }
+  #como-obtengo-beca .float1 {
+    width: 220px;
+    margin-top: 440px !important;
+    margin-left: 31%;
+  }
+  #como-obtengo-beca .float2a {
+    width: 230px;
+    margin-top: 320px;
+    margin-left: 20px;
+  }
+  #como-obtengo-beca .float3 {
+    width: 80%;
+    margin-top: 300px !important;
+    margin-left: 10%;
+  }
+
+  #fourth-section .btn.btn-arrow{
+       padding: 20px 100px 20px 10px;
+    }
+ .foot2 .datos-contacto {
+     text-align: center;
+     font-size: .9em;
+ }
+
+ .contenidoCaracteristicaLista{
+    width:140px !important;
+    /*float:right !important;*/
+ }
+
+}
+@media only screen and (max-width : 320px) {   
+	#como-obtengo-beca .float1{
+		margin-top: 310px !important;
+		width: 180px;
+	}
+	#como-obtengo-beca .quest1 {
+    left: 4% !important;
+    top: 50% !important;
+	}
+	#como-obtengo-beca .float2a{
+    margin-top: 255px;
+		width: 180px;
+	}
+	.quest1-txt{
+		left: -3px;
+	}
+	.quest2{
+		left: 40%;
+	}
+	#como-obtengo-beca .float3{
+    min-width: 85%;
+    margin-top: 200px !important;
+		width: 85%;
+	}
+	.box-faq img {
+	  margin-bottom: 40px !important;
+	}
+	.btn.btn-arrow{
+		padding-left: 10px;
+	}
+}

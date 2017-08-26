@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="description" content="Demo project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+      <!-- <link href="css/Telerik.Web.UI.WebResource.axd" type="text/css" rel="stylesheet"> -->
+    <link href="css/sfproject.min.css" type="text/css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="armadoticketjunaeb.css">
+    <link rel="stylesheet" href="contraste.css">
+  </head>
+  <body class="standard text-body">
+
+    <!--  HEADER TICKET JUNAEB-ENDENRED -->
+    <div class="header">
+      <div id="barra-accesibilidad">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 pl-50">
+              <div class="gob-color">
+                <div class="blue-gob"></div>
+                <div class="red-gob"></div>
+              </div>
+            </div>
+            <div class="col-md-8 pr-50">
+              <div class="manejadores">
+                <a href="javascript:void(0);" class="accesibilidad">  Accesibilidad
+                </a>
+                <span>Cambiar  tamaño del texto</span>
+                <ul class="control-texto">
+                  <li><a href="javascript:void(0);" class="increaseFont"><img src="images/btn-aumentar.png" alt="Aumentar tamaño del texto"></a></li>
+                  <li><a href="javascript:void(0);" class="resetFont"><img src="images/btn-disminuir.png" alt="Disminuir tamaño del texto"></a></li>
+                </ul>
+                <span class="cambio-contraste">Cambiar contraste</span>
+                <a href="javascript:void(0);" id="contraste"><img src="images/btn-contraste.png" alt="cambiar contraste del sitio"></a>
+                <a href="javascript:void(0);" id="contraste"><img src="images/btn-contraste.png" alt="cambiar contraste del sitio"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+          <nav class="navbar navbar-endenred">
+            <div class="container-fluid pl-50 pr-50">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a id="ticketjunaeb" class="navbar-brand" href="#"><img src="images/LogoTicket-Junaeb.png" alt="Logo Beca Ticket Junaeb"></a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse no-padding navbar-right">
+                <ul class="nav navbar-nav navbar menu-principal f12">
+                  <li><a href="http://google.com" accesskey="2">Conoce tu tarjeta <span>Junaeb Edenred</span></a></li>
+                  <li><a href="#">Noticas y <span>Eventos</span></a></li>
+                  <li><a href="#">Vida <span>Saludable</span></a></li>
+                </ul>
+                <div class="navbar-form navbar-right formulario-login">
+            <div class="msg-login-error">
+              Debes completar todos tus datos para ingresar
+              <span class="close-msg">X</span>
+            </div>
+                  <div class="form-group">
+                    <input type="text" placeholder="Email" class="form-control mr-10" id="usuario">
+                  </div>
+                  <div class="form-group fix-login-btn">
+                    <input type="password" placeholder="Contraseña" class="form-control" id="password">
+                  </div>
+                  <button type="submit" class="btn btn-yellow ">Ingresar</button>
+                  <div id="recuperar" class="f12">
+                    <a href="#">Registrarse </a>
+                    <a href="#">Recuperar contraseña </a>
+                  </div>
+                </div>
+              </div><!--/.navbar-collapse -->
+            </div>
+          </nav>
+      </div>
+    </div> <!-- FIN HEADER TICKET JUNAEB-ENDENRED -->
+
+    <!-- CONTENIDO TICKET JUNAEB-ENDENRED -->
+    <div class="contenido-principal">
+      <div id="first-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 no-padding">
+              <div class="about-tarjeta pl-50">
+                <ul>
+                    <li><img src="images/icono-tarjeta.png" alt="icono tarjeta"> Activa tu tarjeta</li>
+                    <li><img src="images/icono-saldo.png" alt="icono saldo">Consulta tu saldo</li>
+                    <li><img src="images/icono-clave.png" alt="icono candado">Obtén y recupera tu clave</li>
+                </ul>
+                <div class="link-mijunaeb">
+                  <p class="f14">Y más ingresando o registrandote en:</p>
+                  <a href="#" class="btn btn-arrow btn-yellow">Mi Junaeb Edenred</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 no-padding">
+              <!-- Sección Dinamica -->
+              <div class="noticia-principal">
+                <img src="images/img-principal.jpg" alt="">
+                <div class="overflow">
+                  <h2>!Por un día más saludable!</h2>
+                  <p>Ingresa a tu cuenta y descubre lo que tenemos para ti</p>
+                </div>
+              </div>
+              <!--  Fin Sección Dinamica -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="second-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 no-padding">
+              <div class="encuesta-home pl-50 bg-black">
+                <div>
+                  <h3>¿Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
+                  <span id="cph_main2_C033_ctl00_ctl00_C004_ctl00_ctl00_radioButtons_radiobuttons" class="sfRadioList sfFieldWrp">
+                  <input id="cph_main2_C033_ctl00_ctl00_C004_ctl00_ctl00_radioButtons_radiobuttons_0" type="radio" name="ctl00$cph_main2$C033$ctl00$ctl00$C004$ctl00$ctl00$radioButtons_radiobuttons" value="1-Estoy muy contento con el desempeÃ±o de mi tarjeta Ticket Junaeb">
+
+                  <label for="cph_main2_C033_ctl00_ctl00_C004_ctl00_ctl00_radioButtons_radiobuttons_0">1-Estoy muy contento con el desempeÃ±o de mi tarjeta Ticket Junaeb</label>
+                  <br>
+                  <input id="cph_main2_C033_ctl00_ctl00_C004_ctl00_ctl00_radioButtons_radiobuttons_1" type="radio" name="ctl00$cph_main2$C033$ctl00$ctl00$C004$ctl00$ctl00$radioButtons_radiobuttons" value="2-Estoy muy contento con el desempeÃ±o de mi tarjeta Ticket Junaeb">
+                  <label for="cph_main2_C033_ctl00_ctl00_C004_ctl00_ctl00_radioButtons_radiobuttons_1">2-Estoy muy contento con el desempeÃ±o de mi tarjeta Ticket Junaeb</label>
+                  <br>
+                  <input id="cph_main2_C033_ctl00_ctl00_C004_ctl00_ctl00_radioButtons_radiobuttons_2" type="radio" name="ctl00$cph_main2$C033$ctl00$ctl00$C004$ctl00$ctl00$radioButtons_radiobuttons" value="3-Estoy muy contento con el desempeÃ±o de mi tarjeta Ticket Junaeb">
+                  <label for="cph_main2_C033_ctl00_ctl00_C004_ctl00_ctl00_radioButtons_radiobuttons_2">3-Estoy muy contento con el desempeÃ±o de mi tarjeta Ticket Junaeb</label>
+                  <br>
+                  <input id="cph_main2_C033_ctl00_ctl00_C004_ctl00_ctl00_radioButtons_radiobuttons_3" type="radio" name="ctl00$cph_main2$C033$ctl00$ctl00$C004$ctl00$ctl00$radioButtons_radiobuttons" value="4-Estoy muy contento con el desempeÃ±o de mi tarjeta Ticket Junaeb">
+                  <label for="cph_main2_C033_ctl00_ctl00_C004_ctl00_ctl00_radioButtons_radiobuttons_3">4-Estoy muy contento con el desempeÃ±o de mi tarjeta Ticket Junaeb</label>
+                  </span>
+                  <a href="#" class="btn btn-arrow btn-yellow">Votar</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6 no-padding">
+              <div class="bg-mapa">
+                <div class="col-sm-7 no-padding">
+                  <div class="area-buscar-lugar pl-50">
+                    <h3>Conoce los lugares donde puedes comprar en nuestro</h3>
+                    <div class="link-mijunaeb">
+                      <p>Y más ingresando o registrandote en:</p>
+                      <a href="#" class="btn btn-arrow btn-yellow">Buscar lugares</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 no-padding">
+              <div>
+                <div class="col-sm-7 no-padding">
+                  <div class="area-widget pl-50">
+                    <h3>Conoce los lugares donde puedes comprar en nuestro</h3>
+                    <div class="link-mijunaeb">
+                      <p>Y más ingresando o registrandote en:</p>
+                      <a href="#" class="btn btn-arrow btn-yellow">Buscar lugares</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-5 no-padding">
+                  <div class="img-crop">
+                    <img src="images/hamburguesa.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 no-padding">
+              <div>
+                <div class="col-sm-7 no-padding">
+                  <div class="area-widget pl-50">
+                    <h3>Conoce los lugares donde puedes comprar en nuestro</h3>
+                    <div class="link-mijunaeb">
+                      <p>Y más ingresando o registrandote en:</p>
+                      <a href="#" class="btn btn-arrow btn-yellow">Buscar lugares</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-5 no-padding">
+                  <div class="img-crop">
+                    <img src="images/hamburguesa.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div id="third-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Conoce tu Beca Ticket Junaeb</h3>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="images/conocer1.png" alt="Conoce Junaeb 1">
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="images/conocer2.png" alt="Conoce Junaeb 2">
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="images/conocer3.png" alt="Conoce Junaeb 3">
+            </div>
+            <div class="col-md-12 text-center">
+              <a href="#" class="btn btn-arrow btn-full btn-yellow">Conoce más acerca de nosotros aquí</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="fourth-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="titulo-faq">
+              <h3>Preguntas Frecuentes</h3>
+            </div>
+            <div class="listado-faq">
+              <a href="#" class="box-faq faq1">
+                <img src="images/faq1.png" alt="descripcion 1">
+                <p class="f14">¿Cómo activar mi tarjeta Junaeb Edenred?</p>
+              </a>
+              <a href="#" class="box-faq faq2 bg-black">
+                <img src="images/faq2.png" alt="descripcion 2">
+                <p class="f14">¿Cómo me registro?</p>
+              </a>
+              <a href="#" class="box-faq faq3">
+                <img src="images/faq3.png" alt="descripcion 3">
+                <p class="f14">¿Cómo reviso mi saldo?</p>
+              </a>
+              <a href="#" class="box-faq faq4">
+                <img src="images/faq4.png" alt="descripcion 4">
+                <p class="f14">¿Cuando se recarga el saldo de mi tarjeta Junaeb Edenred?</p>
+              </a>
+              <a href="#" class="btn btn-yellow btn-arrow btn-block">Resuelve estás y otras dudas aquí</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div id="fifth-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div  class="col-md-12 pl-50 pr-50">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="white-box">
+                    <h4>Eventos</h4> <a href="#" class="more f14">Ver más eventos</a>
+                    <ul>
+                      <!-- Loop Evento -->
+                      <li class="evento">
+                        <div class="fecha-evento bg-black">
+                          <span>07</span>
+                          Dic.
+                        </div>
+                        <div class="cont-evento">
+                          <h5 class="f14">Ahora no sabría dibujar,</h5>
+                          <p>ni siquiera hacer una línea con el lápiz</p>
+                        </div>
+                      </li>
+                      <!-- Fin Loop Evento -->
+                      <li class="evento">
+                        <div class="fecha-evento bg-black">
+                          <span>23</span>
+                          Dic.
+                        </div>
+                        <div class="cont-evento">
+                          <h5 class="f14">Ahora no sabría dibujar,</h5>
+                          <p>ni siquiera hacer una línea con el lápiz</p>
+                        </div>
+                      </li>
+                      <li class="evento">
+                        <div class="fecha-evento bg-black">
+                          <span>07</span>
+                          Dic.
+                        </div>
+                        <div class="cont-evento">
+                          <h5 class="f14">Ahora no sabría dibujar,</h5>
+                          <p>ni siquiera hacer una línea con el lápiz</p>
+                        </div>
+                      </li>
+                      <li class="evento">
+                        <div class="fecha-evento bg-black">
+                          <span>07</span>
+                          Dic.
+                        </div>
+                        <div class="cont-evento">
+                          <h5 class="f14">Ahora no sabría dibujar,</h5>
+                          <p>ni siquiera hacer una línea con el lápiz</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="white-box">
+                    <h4>Noticias</h4> <a href="#" class="more f14">Ver más noticias</a>
+                    <ul>
+                      <!-- Loop  -->
+                        <li class="new">
+                          <div class="img-new">
+                            <img src="images/img1.jpg" alt="">
+                          </div>
+                          <div class="cont-new">
+                            <p class="new-date f12">28 de Abril 2016</p>
+                            <h5>Participa en el curso de e-learning: Autocuidado y vida saludable</h5>
+                          </div>
+                        </li>
+                        <!-- Fin Loop  -->
+                        <li class="new">
+                          <div class="img-new">
+                            <img src="images/img1.jpg" alt="">
+                          </div>
+                          <div class="cont-new">
+                            <p class="new-date f12">28 de Abril 2016</p>
+                            <h5>Participa en el curso de e-learning: Autocuidado y vida saludable</h5>
+                          </div>
+                        </li>
+                        <li class="new">
+                          <div class="img-new">
+                            <img src="images/img1.jpg" alt="">
+                          </div>
+                          <div class="cont-new">
+                            <p class="new-date f12">28 de Abril 2016</p>
+                            <h5>Participa en el curso de e-learning: Autocuidado y vida saludable</h5>
+                          </div>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="white-box">
+                    <h4>Vida Saludable</h4>
+                    <a href="/vida-saludable-hogar/" class="more f14">Ver más artículos
+                    </a>
+                    <ul>
+                      <li class="new" data-sf-provider="OpenAccessProvider" data-sf-id="ab9d14e2-225c-6b34-a6c4-ff000054ee07" data-sf-type="Telerik.Sitefinity.DynamicModules.Model.DynamicContent">
+                        <div class="img-new">
+                          <img  src="http://ticketjunaeb.fusionadns.cl/images/default-source/vida-saludable/vida-saludable.jpg?sfvrsn=0" title="Vida Saludable">
+                        </div>
+                        <div class="cont-new">
+                          <div class="f12">
+                            <div>
+                              <ul class="sfCategoriesList">
+                                <li>
+                                  <span id="ctl00_cph_main5_ctl06_ctl00_ctl00_dynamicContentListView_ctrl0_ctl00_ctl00_ctl00_taxaList_ctl01_taxonName">Receta
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <h5>
+                            <a id="ctl00_cph_main5_ctl06_ctl00_ctl00_dynamicContentListView_ctrl0_DetailsViewHyperLink" class="f12" data-sf-field="Title" data-sf-ftype="ShortText" href="contenido/vida-saludable/!content/participa-en-el-curso-de-e-learning-autocuidado-y-vida-saludable">3.- Participa en el curso de e-learning: Autocuidado y vida saludable
+                            </a>
+                          </h5>
+                        </div>
+                      </li>
+                      <li class="new" data-sf-provider="OpenAccessProvider" data-sf-id="7bfd14e2-225c-6b34-a6c4-ff000054ee07" data-sf-type="Telerik.Sitefinity.DynamicModules.Model.DynamicContent">
+                        <div class="img-new">
+                          <img  src="http://ticketjunaeb.fusionadns.cl/images/default-source/vida-saludable/vida-saludable.jpg?sfvrsn=0" title="Vida Saludable">
+                        </div>
+                        <div class="cont-new">
+                          <div class="f12">
+                            <div>
+                              <ul class="sfCategoriesList">
+                                <li>
+                                  <span id="ctl00_cph_main5_ctl06_ctl00_ctl00_dynamicContentListView_ctrl1_ctl00_ctl00_ctl00_taxaList_ctl01_taxonName">Reportaje
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <h5>
+                            <a id="ctl00_cph_main5_ctl06_ctl00_ctl00_dynamicContentListView_ctrl1_DetailsViewHyperLink" class="f12" data-sf-field="Title" data-sf-ftype="ShortText" href="contenido/vida-saludable/!content/nueva-vida-saludable">2.- Nueva Vida Saludable
+                            </a>
+                          </h5>
+                        </div>
+                      </li>
+                      <li class="new" data-sf-provider="OpenAccessProvider" data-sf-id="770b15e2-225c-6b34-a6c4-ff000054ee07" data-sf-type="Telerik.Sitefinity.DynamicModules.Model.DynamicContent">
+                        <div class="img-new">
+                          <img  src="http://ticketjunaeb.fusionadns.cl/images/default-source/vida-saludable/vida-saludable.jpg?sfvrsn=0" title="Vida Saludable">
+                        </div>
+                        <div class="cont-new">
+                          <div class="f12">
+                            <div>
+                              <ul class="sfCategoriesList">
+                                <li>
+                                  <span id="ctl00_cph_main5_ctl06_ctl00_ctl00_dynamicContentListView_ctrl2_ctl00_ctl00_ctl00_taxaList_ctl01_taxonName">Reportaje
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <h5>
+                            <a id="ctl00_cph_main5_ctl06_ctl00_ctl00_dynamicContentListView_ctrl2_DetailsViewHyperLink" class="f12" data-sf-field="Title" data-sf-ftype="ShortText" href="contenido/vida-saludable/!content/nueva-vida-saludable-dos">4.- Nueva Vida Saludable dos
+                            </a>
+                          </h5>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sixth-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 pl-50  pr-50">
+              <a href="#" class="banner-ciclovias">
+                <div class="bike txt-black">
+                  <span class="f14">La bicicleta es tu medio de transporte?</span>
+                  <span class="bigger-text">Conoce las ciclovías de tu ciudad aquí</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- FIN CONTENIDO TICKET JUNAEB-ENDENRED -->
+
+    <!-- FOOTER TICKET JUNAEB-ENDENRED -->
+    <div id="footer-junaeb">
+      <div class="foot1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 pl-50">
+              <ul class="menu-footer">
+                  <li><a href="#">Condiciones de uso</a></li>
+                  <li><a href="#">Políticas de privacidad</a></li>
+                  <li><a href="#">Preguntas frecuentes</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 pl-50 logos-footer">
+              <span><img src="images/logo-junaeb.jpg" alt="Logo Junaeb - Gobierno de Chile"></span>
+              <span class="logo-edenred"><img src="images/logo-edenred.png" alt="Logo Edenred"></span>
+              <span class="logo-w3"><img src="images/accesibilidad.png" alt="Logo W3C - Accesibilidad"></span>
+            </div>
+            <div class="col-md-4 pr-50">
+              <div class="datos-contacto f14">
+                <span>Contactanos</span>
+                 <p>800 22 7070 (desde red fija) o (02) 2544 8140</p>
+                 <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+                 <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- FIN FOOTER TICKET JUNAEB-ENDENRED -->
+
+
+  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="resize-text.js"></script>
+    <!-- Ocultar mensaje de error al click -->
+    <script>
+      $('.msg-login-error').on('click', function () {
+        $(this).addClass('hidden')
+    });
+    </script>
+</html>

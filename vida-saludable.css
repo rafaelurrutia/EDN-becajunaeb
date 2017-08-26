@@ -1,0 +1,238 @@
+.contenido-principal.paginas {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.contenido-principal.paginas:after {
+  content: '';
+  display: block;
+  width: 54px;
+  height: 35px;
+  position: absolute;
+  top: 0px;
+  left: 45px;
+  background-image: url(images/clip-down-white.png);
+}
+
+.paginas h2 {
+  font-size: 34px;
+  color: #004387;
+  font-family: 'Novel Sans Pro';
+  margin: 0px 0px 30px;
+  padding-top: 80px;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+/*
+  NEW STYLE
+*/
+h1, h2, h3, h4 {
+  font-family: 'Novel Sans Pro';
+}
+
+h4 {
+  margin: 0 0 10px 0;
+  color: #004387;
+  font-weight: bold;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  margin: 0;
+  border-top: 1px dashed #ddd !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.header-vida-saludable {
+  width: 100%;
+  height: 360px;
+  float: left;
+  background-color: #1e4e7f;
+  background-image: url("images/header-vida-saludable.jpg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+.header-vida-saludable h2 {
+  color: #fff;
+  font-size: 34px;
+  font-family: 'Novel Sans Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  max-width: 270px;
+  padding-left: 20px;
+  position: relative;
+}
+.header-vida-saludable h2:before {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  width: 10px;
+  height: 70px;
+  background-color: #f29200;
+}
+.header-vida-saludable .header-icon {
+  background-image: url(images/icon-vida.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-left: 50px;
+  font-family: 'Novel Sans Pro';
+}
+.header-vida-saludable .header-titulo {
+  font-size: 26px;
+}
+
+.vida-saludable {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  padding: 10px 0px 20px 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.vida-saludable .layout-vida-saludable {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+.vida-saludable .layout-vida-saludable .layout-header {
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+}
+.vida-saludable .layout-vida-saludable .layout-header h4 {
+  display: inline-block;
+}
+.vida-saludable .layout-vida-saludable .layout-header .ver-mas {
+  display: inline;
+  transition: all .3s;
+}
+.vida-saludable .layout-vida-saludable .layout-header .ver-mas:hover {
+  opacity: .8;
+}
+.vida-saludable .layout-vida-saludable .layout-header .ver-mas a {
+  color: #f29200;
+  float: left;
+}
+.vida-saludable .layout-vida-saludable .layout-header .ver-mas .ver-mas-icon {
+  background-image: url("images/icon-vermas-amarillo.png");
+  background-position: center;
+  display: block;
+  height: 19px;
+  margin: 1px 0 0 5px;
+  width: 19px;
+}
+.vida-saludable .layout-vida-saludable .layout-header .ver-mas .btn-mas {
+  background-color: #f29200;
+  border-radius: 50%;
+  color: white;
+  height: 14px;
+  font-size: 8px;
+  line-height: 15px;
+  text-align: center;
+  width: 14px;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana {
+  display: -ms-flexbox;
+  display: flex;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana .figcaption {
+  position: absolute;
+  color: white;
+  text-align: left;
+  padding: 25px 30px 25px 25px;
+  bottom: 0;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana .figcaption p {
+  margin: 0;
+  font-size: .8em;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana .figcaption p strong {
+  font-size: 1.4em;
+  margin: 25px 0;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana .info-articulos {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana .info-articulos .articulos {
+  display: inline-block;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana .info-articulos .articulos:last-child {
+  border-bottom: 0px solid #ddd;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana .info-articulos .articulos .info {
+  padding: 0 5px;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana .info-articulos p {
+  margin: 0;
+  font-size: .88em;
+}
+.vida-saludable .layout-vida-saludable .info-vida-sana .info-articulos p.etiqueta {
+  font-size: .7em;
+}
+
+.mapa {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  .contenido-principal.paginas:after {
+    display: none;
+  }
+
+  .contenedor {
+    padding: 0 20px;
+  }
+  .contenedor h2 {
+    padding-top: 20px;
+  }
+
+  #vida-saludable {
+    margin-top: 0;
+  }
+  #vida-saludable .layout-vida-saludable {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #vida-saludable .layout-vida-saludable .info-vida-sana {
+    display: block !important;
+  }
+  #vida-saludable .layout-vida-saludable .info-vida-sana .img-full {
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  #vida-saludable .layout-vida-saludable .info-vida-sana .articulos {
+    padding: 15px 0;
+  }
+  #vida-saludable .layout-vida-saludable .info-vida-sana .articulos .img {
+    padding: 0;
+  }
+}
+.ie body .col-md-6 {
+  width: 50%;
+  float: left;
+}
+.ie body .articulos .img {
+  float: left;
+}
+
+/*# sourceMappingURL=vida-saludable.css.map */

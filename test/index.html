@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=10">
+  <link rel="stylesheet" href="gray.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+  <![endif]-->
+  <!--[if !(IE)|(gte IE 9)]><!-->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <!--<![endif]-->
+</head>
+<body>
+	<h3>img</h3>
+  <img src="https://cache-graphicslib.viator.com/graphicslib/thumbs360x240/6315/SITours/recorrido-por-la-ciudad-con-paradas-de-santiago-in-santiago-248475.jpg">
+  <br>
+  <h3>div background-image</h3>
+  <div
+    style="background-image: url('http://recorridoprod.s3.amazonaws.com/city_images/pictures/102/original/Santiago12.JPG?1440106952');
+    height: 270px;
+    width: 500px;
+    display:inline-block"></div>
+  <br>
+  <h3>div background-image con contenido dentro</h3>  
+  <div
+    style="background-image: url('https://www.gsb.stanford.edu/sites/gsb/files/image-fpp/photo-santiago-skyline.jpg');
+    height: 270px;
+    width: 500px;
+    display:inline-block">hola sakjdhjksah ds  asjhd kahsdk jak sjdkjasd kjashdsakjhdk sjahdkj hasdkjdsah kjadsh sakjdkjashd </div>
+
+  <br><a href="#" id="gris">CLICK</a>
+
+
+<!--       <button onclick="$('.grayscale').toggleClass('grayscale-off')">Toggle Grayscale</button> -->
+
+
+  <script src="jquery.gray.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('#gris').click(function(){
+      if( $('body').hasClass('graysacale') ){
+        $('.grayscale').toggleClass('grayscale-off');
+      } else {
+        $('body').addClass('graysacale');
+        $('div').gray();
+        $('img').gray();
+        $('div').addClass('grayscale');
+        $('img').addClass('grayscale');
+      }
+    });
+  });
+  </script>
+</body>
+</html>

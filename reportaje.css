@@ -1,0 +1,46 @@
+.paginador{
+  text-align: center;
+  position: relative;
+}
+.paginationjs-prev,
+.paginationjs-page,
+.paginationjs-next{
+  display: inline-block;
+  position: relative;
+}
+.paginationjs-page.sf_PageCurrent{
+  font-weight: bold;
+}
+.paginationjs-page a{
+  background-color: white;
+  color: #666;
+  font-size: 12px;
+  width: 55px;
+}
+.paginationjs-page:before{
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    display: block;
+    width: 1px;
+    height:20px;
+    background-color: #d1d5dd;
+}
+.paginationjs-page:before:nth-last-child(1){
+    content: initial;
+    display: none;
+}
+
+@media (max-width: 450px){
+  .paginationjs-prev,
+  .paginationjs-next{
+    margin: 15px;
+  }
+  .grilla-articulos .paginador {
+    display: block !important;
+  }
+  .paginationjs-page{
+    display: none;
+  }
+}

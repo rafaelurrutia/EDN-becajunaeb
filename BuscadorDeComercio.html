@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="description" content="Demo project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+      <!-- <link href="css/Telerik.Web.UI.WebResource.axd" type="text/css" rel="stylesheet"> -->
+    <link href="css/sfproject.min.css" type="text/css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contraste.css">
+
+  </head>
+  <body class="standard text-body contraste">  
+
+    <!--  HEADER TICKET JUNAEB-ENDENRED -->
+    <div class="header">
+      <div id="barra-accesibilidad">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 pl-50">
+              <div class="gob-color">
+                <div class="blue-gob"></div>
+                <div class="red-gob"></div>
+              </div>
+            </div>
+            <div class="col-md-8 pr-50">
+              <div class="manejadores">
+                <span>Cambiar  tamaño del texto</span>
+                <ul class="control-texto">
+                  <li><a href="javascript:void(0);" class="increaseFont"><img src="images/btn-aumentar.png" alt="Aumentar tamaño del texto"></a></li>
+                  <li><a href="javascript:void(0);" class="resetFont"><img src="images/btn-disminuir.png" alt="Disminuir tamaño del texto"></a></li>
+                </ul>
+                <span class="cambio-contraste">Cambiar contraste</span>
+                <a href="javascript:void(0);" id="contraste"><img src="images/btn-contraste.png" alt="cambiar contraste del sitio"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+
+          <nav class="navbar navbar-endenred">
+            <div class="container-fluid pl-50 pr-50">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a id="ticketjunaeb" class="navbar-brand" href="#"><img src="images/LogoTicket-Junaeb.png" alt="Logo Beca Ticket Junaeb"></a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse no-padding navbar-right">
+                <ul class="nav navbar-nav navbar menu-principal f12">
+                  <li><a href="http://google.com" accesskey="2">Conoce tu tarjeta <span>Junaeb Edenred</span></a></li>
+                  <li><a href="#">Noticas y <span>Eventos</span></a></li>
+                  <li><a href="#">Vida <span>Saludable</span></a></li>
+                </ul>
+                <div class="navbar-form navbar-right formulario-login">
+            <div class="msg-login-error">
+              Debes completar todos tus datos para ingresar
+              <span class="close-msg">X</span>
+            </div>
+                  <div class="form-group">
+                    <input type="text" placeholder="Email" class="form-control mr-10" id="usuario">
+                  </div>
+                  <div class="form-group fix-login-btn">
+                    <input type="password" placeholder="Contraseña" class="form-control" id="password">
+                  </div>
+                  <button type="submit" class="btn btn-yellow ">Ingresar</button>
+                  <div id="recuperar" class="f12">
+                    <a href="#">Registrarse </a>
+                    <a href="#">Recuperar contraseña </a>
+                  </div>
+                </div>
+              </div><!--/.navbar-collapse -->
+            </div>
+          </nav>
+
+      </div>
+
+    </div> <!-- FIN HEADER TICKET JUNAEB-ENDENRED -->
+
+    <!-- CONTENIDO TICKET JUNAEB-ENDENRED -->
+    <div class="contenido-principal paginas">
+      <div class="header-buscador-comercio">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 pl-50 pr-50">
+              <h2>Buscador de Comercio</h2>
+              <div class="bajada-buscador">
+                <h3>¡Encuentra tus afiliados más cercanos!</h3>
+                <p>Para una búsqueda más específica, selecciona el comercio de interés y la zona geográfica requerida</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area-iframe">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 pl-50 pr-50">
+              <div id="buscacomercio">
+                <iframe src="http://searchv2.edenred.com/?CountryID=22&ProductID=2&LangueID=1" scrolling="no" frameborder="0"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="fourth-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="titulo-faq">
+              <h3>Preguntas Frecuentes</h3>
+            </div>
+            <div class="listado-faq">
+              <a href="#" class="box-faq faq1">
+                <img src="images/faq1.png" alt="descripcion 1">
+                <p class="f14">¿Cómo activar mi tarjeta Junaeb Edenred?</p>
+              </a>
+              <a href="#" class="box-faq faq2 bg-black">
+                <img src="images/faq2.png" alt="descripcion 2">
+                <p class="f14">¿Cómo me registro?</p>
+              </a>
+              <a href="#" class="box-faq faq3">
+                <img src="images/faq3.png" alt="descripcion 3">
+                <p class="f14">¿Cómo reviso mi saldo?</p>
+              </a>
+              <a href="#" class="box-faq faq4">
+                <img src="images/faq4.png" alt="descripcion 4">
+                <p class="f14">¿Cuando se recarga el saldo de mi tarjeta Junaeb Edenred?</p>
+              </a>
+              <a href="#" class="btn btn-yellow btn-arrow btn-block">Resuelve estás y otras dudas aquí</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div><!-- FIN CONTENIDO TICKET JUNAEB-ENDENRED -->
+
+    <!-- FOOTER TICKET JUNAEB-ENDENRED -->
+    <div id="footer-junaeb">
+      <div class="foot1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 pl-50">
+              <ul class="menu-footer">
+                  <li><a href="#">Condiciones de uso</a></li>
+                  <li><a href="#">Políticas de privacidad</a></li>
+                  <li><a href="#">Preguntas frecuentes</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 pl-50 logos-footer">
+              <span><img src="images/logo-junaeb.jpg" alt="Logo Junaeb - Gobierno de Chile"></span>
+              <span class="logo-edenred"><img src="images/logo-edenred.png" alt="Logo Edenred"></span>
+              <span class="logo-w3"><img src="images/accesibilidad.png" alt="Logo W3C - Accesibilidad"></span>
+            </div>
+            <div class="col-md-4 pr-50">
+              <div class="datos-contacto f14">
+                <span>Contactanos</span>
+                 <p>800 22 7070 (desde red fija) o (02) 2544 8140</p>
+                 <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+                 <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- FIN FOOTER TICKET JUNAEB-ENDENRED -->
+
+
+  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="resize-text.js"></script>
+    <!-- Ocultar mensaje de error al click -->
+    <script>
+      $('.msg-login-error').on('click', function () {
+        $(this).addClass('hidden')
+    });
+    </script>
+</html>

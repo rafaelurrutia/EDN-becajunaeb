@@ -1,0 +1,70 @@
+.buscador-faq input.sfsearchTxt::-webkit-input-placeholder {
+   color: #ccc !important;
+}
+.buscador-faq input.sfsearchTxt:-moz-placeholder {
+   color: #ccc !important;
+}
+.buscador-faq input.sfsearchTxt::-moz-placeholder {
+   color: #ccc !important;
+}
+.buscador-faq input.sfsearchTxt:-ms-input-placeholder {
+   color: #ccc !important;
+}
+.caja-pregunta-frecuente{
+  margin-top: 0;
+}
+.volver-arriba{
+  width: 100%;
+  height: 80px;
+  padding-top: 20px;
+  display: block;
+  float: left;
+  text-align: center;
+  background-color: #11204c;
+  color: #fff;
+  clear: both;
+  margin-bottom: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width : 992px) {
+  #faq-solicitadas{
+    display: inline-block;
+  }
+}
+@media only screen and (max-width : 768px) {
+}
+@media only screen and (max-width : 720px) {
+  .nav-tabs.faqnav li{
+    width: 50%;
+  }
+  .nav-tabs.faqnav li a{
+    background-image: none;
+  }
+  .nav-tabs.faqnav li.active a{
+    background-image: none;
+  }
+  #faq-solicitadas .tab-content{
+    padding: 20px;
+  }
+  .caja-pregunta-frecuente{
+    padding: 20px;
+  }
+  .sf_pagerNumeric{
+    display: none !important;
+  }
+  .paginador{
+    margin: 20px 0;
+  }
+  .paginador a{
+    display: inline-block;
+    float: initial;
+    margin: 15px;
+  }
+}
+@media only screen and (max-width : 480px) {
+}
+@media only screen and (max-width : 320px) {
+}
